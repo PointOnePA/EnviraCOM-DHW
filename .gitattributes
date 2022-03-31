@@ -1,0 +1,10 @@
+# Turn off the automation linguist language detection in the GasBurnerControl folders
+GasBurnerControl/Docs-DHW_Heater linguist-detectable=false
+GasBurnerControl/Oscope linguist-detectable=false
+GasBurnerControl/PCB-Parts linguist-detectable=false
+
+# Force language type to ltspice on *.asc files in Models folder
+GasBurnerControl/Models/*.asc linguist-language=ltspice
+
+# Force eol to just linefeed for LTspice model *.asc files
+GasBurnerControl/Models/*.asc eol=lf
