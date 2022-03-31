@@ -2,8 +2,8 @@
 *.d
 
 # LTspice
-Models/*.raw
-Models/*.log
+*.raw
+*.log
 
 # Object files
 *.o
