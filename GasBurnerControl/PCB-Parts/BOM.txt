@@ -1,0 +1,37 @@
+Resistors
+R31	10K
+R32 2.2K
+R33 22.1
+R34 51.3K
+R35 10K
+R36 10K
+R37 10K
+R38  1K
+R39  1K
+R40 2.2K
+R41 2.2K
+R42  1K
+R43  1K
+R44	10K
+R45	51K
+R46	51K
+R47	10K
+R48  1K
+R62 2.1K
+R95 232K
+
+Diodes	Label	PN	Package	Description	Manufacturer
+D33	T4	1N4148WT	SOD-523F	small signal, fast switch	Diodes Inc
+D34	E1	1N4148WT	SOD-523F	small signal, fast switch	Onsemi
+
+References:
+1)	Reverse Engineering Services	https://www.pic-control.com/diode-marking-code/
+
+Capacitor
+C34, class2, 0.01uF from patent
+
+Reference
+Ceramic, bi-polar 
+Class1 white, below 100pF
+Class2 light brown, nF-uF, X7R, X5R, 
+Class3 black or dark brown, nonlinear, Y5V, Z5U
